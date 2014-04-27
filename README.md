@@ -1,9 +1,13 @@
-This repository contains the data_analysis.R file which solves the programming assignment
+Cleaning Data Course Project
 =============
 
-The data_analysis file contains extensive comments which describe the functionality of the script.
 
-It is being splitted according to the five steps given in the project description.
+The data_analysis file returns the tidy data.
+The qdap library must be installed so as to run the code.
+
+It contains line-by-line comments which describe its functionality.
+
+It is being splitted according to the five steps given in the project description:
 
 1.Merges the training and the test sets to create one data set.
 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -15,11 +19,10 @@ For part 3,4 the same code section applies but with two distinctive parts:
 
 i. Setting the activity states
 
-ii. clearing the variable names
+ii. beautifying the variable names
 
 
-I have avoided hardcoding in the project - hopefully this doesn't make the code too complicated.
 
-The txt format of the output is not so readable - I hope we could have the right to upload in csv:)
+I have avoided hardcoding in the script - hopefully this doesn't make the code too complicated.
 
-The qdap library must be installed so as to run the code.
+The pdf format of the output is not so readable - I hope we could be able to upload in csv:)
