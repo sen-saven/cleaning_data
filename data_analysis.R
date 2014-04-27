@@ -109,9 +109,10 @@ names(mean_or_std_data) = column_names;
 
 number_of_subjects = 30;
 
-## getting the numb
+## getting the number of states
 len_states = length(states);
 
+## initializing the tidy data set
 tidy_data <-  data.frame(matrix(ncol = num_of_columns, nrow = number_of_subjects*len_states))
 
 ## getting the index of the 'Subject' column
